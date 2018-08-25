@@ -10,7 +10,6 @@
 		5339E5222130DBAD0062DB82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339E5212130DBAD0062DB82 /* AppDelegate.swift */; };
 		5339E5272130DBAD0062DB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5339E5252130DBAD0062DB82 /* Main.storyboard */; };
 		5339E5292130DBAD0062DB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5339E5282130DBAD0062DB82 /* Assets.xcassets */; };
-		5339E52C2130DBAD0062DB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5339E52A2130DBAD0062DB82 /* LaunchScreen.storyboard */; };
 		5339E5342130E3BF0062DB82 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339E5332130E3BF0062DB82 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +18,6 @@
 		5339E5212130DBAD0062DB82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5339E5262130DBAD0062DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5339E5282130DBAD0062DB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5339E52B2130DBAD0062DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5339E52D2130DBAD0062DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5339E5332130E3BF0062DB82 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +55,6 @@
 				5339E5212130DBAD0062DB82 /* AppDelegate.swift */,
 				5339E5252130DBAD0062DB82 /* Main.storyboard */,
 				5339E5282130DBAD0062DB82 /* Assets.xcassets */,
-				5339E52A2130DBAD0062DB82 /* LaunchScreen.storyboard */,
 				5339E52D2130DBAD0062DB82 /* Info.plist */,
 				5339E5332130E3BF0062DB82 /* HelloWorldViewController.swift */,
 			);
@@ -122,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5339E52C2130DBAD0062DB82 /* LaunchScreen.storyboard in Resources */,
 				5339E5292130DBAD0062DB82 /* Assets.xcassets in Resources */,
 				5339E5272130DBAD0062DB82 /* Main.storyboard in Resources */,
 			);
@@ -149,14 +145,6 @@
 				5339E5262130DBAD0062DB82 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5339E52A2130DBAD0062DB82 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5339E52B2130DBAD0062DB82 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

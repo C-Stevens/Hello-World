@@ -9,7 +9,7 @@
 import UIKit
 
 class HelloWorldViewController: UIViewController {
-
+    
     @IBOutlet weak var messageLabel: UILabel!
     
     override func viewDidLoad() {
@@ -27,12 +27,11 @@ class HelloWorldViewController: UIViewController {
         messageLabel.text = "Hello world!"
     }
     
-    @IBAction func clearTapped(_ sender: Any) {
+     @IBAction func clearTapped(_ sender: Any) {
         messageLabel.text = ""
-    }
-    
+     }
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
